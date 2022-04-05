@@ -4,3 +4,16 @@ body {
     color: red;
     font-family: 'Courier New', Courier, monospace;
 }
+.grid-sample {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+.grid-sample ul, ol {
+    text-decoration: underline;
+    cursor: pointer;
+    list-style: none;
+}
+footer form {
+    margin: 10px 0;
+}
