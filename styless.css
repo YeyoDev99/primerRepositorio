@@ -2,7 +2,7 @@ body {
     font-weight: bold;
     text-align: center;
     color: red;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
 }
 .grid-sample {
     display: grid;
