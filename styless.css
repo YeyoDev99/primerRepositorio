@@ -32,3 +32,18 @@ footer form {
     cursor: pointer;
     border: solid 1px brown;
 }
+.master {
+    color: blue;
+}
+.master ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: aqua;
+}
+.master ul:hover {
+    background-color: red;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
